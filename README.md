@@ -43,6 +43,8 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+  -A closure is a function executed in a different scope than the one it was written.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,8 +66,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+  -Closure is used by the const dansRoll and zoesRoll, they use the function inside personalDice.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+  -The string is the same, the value Dan is the same, the value newRoll could change.
+
 c. What is the lexical scope of `newRoll`? 
+  -newRoll is a const, so it's bloc scoped.
 
 
 ### Task 3 - Stretch Goals
