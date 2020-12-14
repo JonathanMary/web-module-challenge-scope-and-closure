@@ -49,7 +49,7 @@ Edit the `ReadMe` file with your answers.
 function personalDice(name){
   return function(){
       // generate random number between 1 and 6
-    const newRoll = Math.floor(Math.random() * 6);
+    const newRoll = Math.ceil(Math.random() * 6);
     console.log(`${name} rolled a ${newRoll}`)
   }
 }
